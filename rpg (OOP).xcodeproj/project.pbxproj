@@ -18,7 +18,7 @@
 		E7316BC11C0CB8C6000E2009 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC01C0CB8C6000E2009 /* Player.swift */; };
 		E7316BC31C0CBB00000E2009 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC21C0CBB00000E2009 /* Enemy.swift */; };
 		E7316BC51C0CBC40000E2009 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC41C0CBC40000E2009 /* Kimara.swift */; };
-		E7316BC71C0CBD4D000E2009 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC61C0CBD4D000E2009 /* DevilWizard.swift */; };
+		E7316BC91C0CD318000E2009 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC81C0CD318000E2009 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		E7316BC01C0CB8C6000E2009 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E7316BC21C0CBB00000E2009 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		E7316BC41C0CBC40000E2009 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
-		E7316BC61C0CBD4D000E2009 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DevilWizard.swift; path = ../DevilWizard.swift; sourceTree = "<group>"; };
+		E7316BC81C0CD318000E2009 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				E7316BC01C0CB8C6000E2009 /* Player.swift */,
 				E7316BC21C0CBB00000E2009 /* Enemy.swift */,
 				E7316BC41C0CBC40000E2009 /* Kimara.swift */,
-				E7316BC61C0CBD4D000E2009 /* DevilWizard.swift */,
+				E7316BC81C0CD318000E2009 /* DevilWizard.swift */,
 			);
 			path = "rpg (OOP)";
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 			files = (
 				E7316BC31C0CBB00000E2009 /* Enemy.swift in Sources */,
 				E7316BC11C0CB8C6000E2009 /* Player.swift in Sources */,
-				E7316BC71C0CBD4D000E2009 /* DevilWizard.swift in Sources */,
+				E7316BC91C0CD318000E2009 /* DevilWizard.swift in Sources */,
 				E7316BC51C0CBC40000E2009 /* Kimara.swift in Sources */,
 				E7316BBF1C0CB73D000E2009 /* Character.swift in Sources */,
 				E7316B931C0CB58D000E2009 /* ViewController.swift in Sources */,
