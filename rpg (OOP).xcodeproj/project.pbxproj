@@ -14,6 +14,11 @@
 		E7316B9B1C0CB58D000E2009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7316B991C0CB58D000E2009 /* LaunchScreen.storyboard */; };
 		E7316BA61C0CB58E000E2009 /* rpg__OOP_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BA51C0CB58E000E2009 /* rpg__OOP_Tests.swift */; };
 		E7316BB11C0CB58E000E2009 /* rpg__OOP_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BB01C0CB58E000E2009 /* rpg__OOP_UITests.swift */; };
+		E7316BBF1C0CB73D000E2009 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BBE1C0CB73D000E2009 /* Character.swift */; };
+		E7316BC11C0CB8C6000E2009 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC01C0CB8C6000E2009 /* Player.swift */; };
+		E7316BC31C0CBB00000E2009 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC21C0CBB00000E2009 /* Enemy.swift */; };
+		E7316BC51C0CBC40000E2009 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC41C0CBC40000E2009 /* Kimara.swift */; };
+		E7316BC71C0CBD4D000E2009 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316BC61C0CBD4D000E2009 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		E7316BAC1C0CB58E000E2009 /* rpg (OOP)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rpg (OOP)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7316BB01C0CB58E000E2009 /* rpg__OOP_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpg__OOP_UITests.swift; sourceTree = "<group>"; };
 		E7316BB21C0CB58E000E2009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7316BBE1C0CB73D000E2009 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E7316BC01C0CB8C6000E2009 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E7316BC21C0CBB00000E2009 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		E7316BC41C0CBC40000E2009 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		E7316BC61C0CBD4D000E2009 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DevilWizard.swift; path = ../DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				E7316B971C0CB58D000E2009 /* Assets.xcassets */,
 				E7316B991C0CB58D000E2009 /* LaunchScreen.storyboard */,
 				E7316B9C1C0CB58D000E2009 /* Info.plist */,
+				E7316BBE1C0CB73D000E2009 /* Character.swift */,
+				E7316BC01C0CB8C6000E2009 /* Player.swift */,
+				E7316BC21C0CBB00000E2009 /* Enemy.swift */,
+				E7316BC41C0CBC40000E2009 /* Kimara.swift */,
+				E7316BC61C0CBD4D000E2009 /* DevilWizard.swift */,
 			);
 			path = "rpg (OOP)";
 			sourceTree = "<group>";
@@ -189,7 +204,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Travis Negron";
+				ORGANIZATIONNAME = "tN-Development";
 				TargetAttributes = {
 					E7316B8C1C0CB58D000E2009 = {
 						CreatedOnToolsVersion = 7.2;
@@ -259,6 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7316BC31C0CBB00000E2009 /* Enemy.swift in Sources */,
+				E7316BC11C0CB8C6000E2009 /* Player.swift in Sources */,
+				E7316BC71C0CBD4D000E2009 /* DevilWizard.swift in Sources */,
+				E7316BC51C0CBC40000E2009 /* Kimara.swift in Sources */,
+				E7316BBF1C0CB73D000E2009 /* Character.swift in Sources */,
 				E7316B931C0CB58D000E2009 /* ViewController.swift in Sources */,
 				E7316B911C0CB58D000E2009 /* AppDelegate.swift in Sources */,
 			);
